@@ -2,7 +2,6 @@ package pl.programujodpodstaw.webjpa;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import pl.programujodpodstaw.webjpa.entity.User;
 
 @SpringBootApplication
 public class WebJpaApplication {

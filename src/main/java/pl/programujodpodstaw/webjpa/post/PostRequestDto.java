@@ -1,4 +1,4 @@
-package pl.programujodpodstaw.webjpa.dto;
+package pl.programujodpodstaw.webjpa.post;
 
 public class PostRequestDto {
     private String bodyPost;

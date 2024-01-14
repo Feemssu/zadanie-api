@@ -1,12 +1,9 @@
-package pl.programujodpodstaw.webjpa.controller;
+package pl.programujodpodstaw.webjpa.post;
 
 import jakarta.persistence.EntityNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import pl.programujodpodstaw.webjpa.dto.PostDto;
-import pl.programujodpodstaw.webjpa.dto.PostRequestDto;
-import pl.programujodpodstaw.webjpa.service.PostService;
 
 import java.util.List;
 

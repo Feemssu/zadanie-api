@@ -1,4 +1,4 @@
-package pl.programujodpodstaw.webjpa.dto;
+package pl.programujodpodstaw.webjpa.user;
 
 public class UserDto {
 

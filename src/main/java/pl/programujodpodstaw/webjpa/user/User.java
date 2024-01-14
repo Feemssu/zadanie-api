@@ -1,7 +1,8 @@
-package pl.programujodpodstaw.webjpa.entity;
+package pl.programujodpodstaw.webjpa.user;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
+import pl.programujodpodstaw.webjpa.post.Post;
 
 import java.util.List;
 

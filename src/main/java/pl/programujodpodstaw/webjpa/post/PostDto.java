@@ -1,6 +1,4 @@
-package pl.programujodpodstaw.webjpa.dto;
-
-import pl.programujodpodstaw.webjpa.entity.User;
+package pl.programujodpodstaw.webjpa.post;
 
 public class PostDto {
 

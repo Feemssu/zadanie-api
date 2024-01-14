@@ -1,14 +1,10 @@
-package pl.programujodpodstaw.webjpa.service;
+package pl.programujodpodstaw.webjpa.post;
 
 import jakarta.persistence.EntityNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import pl.programujodpodstaw.webjpa.dto.PostDto;
-import pl.programujodpodstaw.webjpa.dto.PostRequestDto;
-import pl.programujodpodstaw.webjpa.entity.Post;
-import pl.programujodpodstaw.webjpa.entity.User;
-import pl.programujodpodstaw.webjpa.repository.PostRepository;
-import pl.programujodpodstaw.webjpa.repository.UserRepository;
+import pl.programujodpodstaw.webjpa.user.User;
+import pl.programujodpodstaw.webjpa.user.UserRepository;
 
 import java.util.List;
 import java.util.Optional;

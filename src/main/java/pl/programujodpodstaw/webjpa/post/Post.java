@@ -1,6 +1,7 @@
-package pl.programujodpodstaw.webjpa.entity;
+package pl.programujodpodstaw.webjpa.post;
 
 import jakarta.persistence.*;
+import pl.programujodpodstaw.webjpa.user.User;
 
 @Entity
 public class Post {

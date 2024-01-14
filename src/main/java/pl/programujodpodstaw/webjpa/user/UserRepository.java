@@ -1,8 +1,7 @@
-package pl.programujodpodstaw.webjpa.repository;
+package pl.programujodpodstaw.webjpa.user;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
-import pl.programujodpodstaw.webjpa.entity.User;
 
 @Repository
 public interface UserRepository extends CrudRepository<User, Integer> {
